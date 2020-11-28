@@ -66,7 +66,7 @@ function checkCashRegister(price, cash, cid) {
         return output;
     }
 
-    // Here is your change, ma'am.
+    // Here is your change.
     output.status = "OPEN";
     output.change = change_arr;
     return output;
